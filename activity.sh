@@ -11,5 +11,6 @@ echo
 
 # Commit it
 git add output.txt
-git commit --amend --no-edit -m "$info" --date="$pastDate"
+git commit --date="Fri Nov 6 20:00:00 2019 -0600" -m "$info" 
+#git commit --amend --no-edit --date="$pastDate" -m"$info" 
 git push
